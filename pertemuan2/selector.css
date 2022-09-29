@@ -1,0 +1,15 @@
+body{
+  font-family: arial;
+}
+p{
+  color: silver;
+}
+h1{
+  font-size: 40px;
+  color: royalblue;
+}
+.nama {
+  font-family: georgia;
+  color: skyblue;
+  text-decoration: underline;
+}
