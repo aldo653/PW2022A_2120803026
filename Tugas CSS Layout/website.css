@@ -1,0 +1,146 @@
+.top-bar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 40px;
+    background-color: #256D85;
+    z-index: 9999999;
+}
+
+.container{
+    width : 950px;
+    margin: 80px auto;
+    background-color: white;
+    position: relative;
+}
+
+.instagram{
+    width: 76px;
+    height: 100px;
+    background-image: url(img/resize.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -99999999px;
+    position: absolute;
+    top: -20px;
+    right: -25px;
+}
+
+body{
+    font: 15px/25px georgia;
+    background-color: #B7C4CF;
+    color : #333
+}
+.header{
+    padding: 20px;
+}
+
+.header .judul{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.header ul li{
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.header a{
+    text-decoration: none;
+    color: #256D85;
+}
+
+.header a:hover{
+    background-color: #47B5FF;
+    color: white;
+    padding: 5px;
+}
+
+.hero{
+    margin-top: 30px;
+    height: 320px;
+    background-image: url(img/gambar.jpg);
+    background-size: cover;
+    background-position: 0px -50px;
+}
+
+.main{
+    width: 580px;
+    margin-top: -30px;
+    padding: 30px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.main h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.main .penulis{
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+.main .penulis a{
+    color: #256D85;
+    text-decoration: none;
+}
+
+.sidebar{
+    width: 300px;
+    float: right;
+    padding: 30px;
+}
+
+.sidebar h3{
+    font-weight: bold;
+    color: #333;
+}
+
+.sidebar img{
+    width: 70px;
+    height: 70px;
+    float: left;
+    padding-right: 10px;
+}
+
+.sidebar p{
+    font: 12px/20px georgia;
+}
+
+.footer{
+    background-color: #256D85;
+}
+
+.footer .copyright{
+    color: #DFF6FF;
+    text-align: center;
+}
+
+.lowbar img{
+    height : 200px;
+    width : 130x;
+    position: absolute;
+    right : -70px;
+    top: 1350px;
+}
+
+
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table; 
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
