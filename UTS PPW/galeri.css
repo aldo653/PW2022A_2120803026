@@ -1,0 +1,164 @@
+body{
+    font: 15px/25px georgia;
+    background-color: #DEF5E5;
+    color : rgb(46, 24, 24)
+}
+
+.containerutama{
+    background-color: #DEF5E5 ;
+    width: 1300px;
+    margin: 20px auto;
+}
+
+.containerutama .container1{
+    text-align: center;
+    width: 200px;
+    margin: 20px auto 20px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-color: #ffff;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    float: left;
+}
+
+.container1 img{
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container1 h4{
+    color: #425F57;
+}
+
+.container1 ul li{
+    display: grid;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: -29px;
+}
+
+.container1 a{
+    text-align: left;
+    text-decoration: none;
+    color: #333;
+}
+
+.container1 a:hover{
+    color: #8EC3B0;
+}
+
+.container1 ul p{
+    text-align: left;
+    margin-left: -29px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+.containerutama .container2{
+    margin-left: 20px;
+    float:left;
+    border-radius: 20px;
+    background-color: #ffff;
+    width: 950px;
+    margin-top: 25px
+}
+
+
+.containerutama .container2 .tulisan{
+    color: #8EC3B0;
+    float: left;
+    margin-top: 43px;
+    margin-left: 50px;
+    font-weight: 0px;
+}
+
+.containerutama .container2 .taskbar{
+    height: 40px;
+    background-color: #425F57;
+    margin-top: -20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: left;
+}
+
+.containerutama .container2 .taskbar ul li{
+    display: inline-block;
+}
+
+.containerutama .container2 .taskbar ul li span{
+    margin-left: 410px;
+}
+
+.containerutama .container2 .taskbar a{
+    text-decoration: none;
+    color: #ffff;
+    line-height: 40px;
+    margin: auto 10px;
+}
+
+.containerutama .container2 .taskbar a:hover {
+    color: #DEF5E5;
+}
+
+.containerutama .container2 .tentang{
+    margin-top: 20px;
+}
+
+.containerutama .container2 .tentang h3{
+    color: #425F57;
+    text-align: center;
+}
+
+.containerutama .container2 .tentang a{
+    text-decoration: none;
+    color: #425F57;
+    margin-right: 650px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.containerutama .container2 .tentang a:hover{
+    color: #425F57;
+
+}
+
+.containerutama .container2 .tentang .gambar{
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+.containerutama .container2 .tentang .gambar img{
+    margin-top: -5px;
+    margin-left: 10px;
+    height: 170px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.containerutama .container2 .tentang .labbio{
+    margin-top: 30px;
+}
+
+.containerutama .container2 .tentang .labkimia{
+    margin-top: 30px;
+}
+
+.footer{
+    background-color: #425F57;
+    height: 40px;
+    margin-top: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.footer .copyright{
+    color: #ffff;
+    text-align: center;
+    line-height: 40px;
+}
+
+
